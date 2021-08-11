@@ -1,4 +1,4 @@
-public class task_05 {
+public class Task_05 {
     
     public static void main(String[] args) {
         areaOfTriangle(9, 11, 10);

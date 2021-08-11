@@ -1,4 +1,4 @@
-public class task_04 {
+public class Task_04 {
     public static void main(String[] args) {
         evenOrOdd(7);
     }

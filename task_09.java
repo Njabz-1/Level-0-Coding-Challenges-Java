@@ -1,14 +1,16 @@
-public class task_09 {
+public class Task_09 {
     public static void main(String[] args) {
-        vowels("the quick brown fox called Ardo");
+        System.out.print("Vowels: ");
+        System.out.print(vowels("The quick brown fox called Ardo"));
+        
     }
-    public static void vowels(String string){
+    public static String vowels(String string){
         for (int i = 0; i < string.length(); i++){
             char c = string.charAt(i);
                 if(isVowel(c)){
-                    System.out.println(c);
+                    System.out.print(c+", ");
                 }
-            }
+            } return "";
         }
         public static boolean isVowel(char character){
         if(character=='a' || character=='A' || character=='e' || character=='E' ||

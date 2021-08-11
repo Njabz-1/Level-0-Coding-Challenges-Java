@@ -1,4 +1,4 @@
-public class task_03 {
+public class Task_03 {
     public static void main(String[] args) {
         hello("Njabz");
         }

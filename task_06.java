@@ -1,4 +1,4 @@
-public class task_06 {
+public class Task_06 {
     public static void main(String[] args) {
         maximumNumber(5, 8, 7);
     }
