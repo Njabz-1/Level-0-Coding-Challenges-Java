@@ -12,9 +12,11 @@ public class Task_010 {
            for (int j = 0; j < string2.length(); j++) {
               if(string1.charAt(i) == string2.charAt(j)){
                   sentence.add(string1.charAt(i)+"");
+                  
               }
-        }
+        }   
        }
-        System.out.println("Vowels: "+sentence);
+        String joined = String.join(", ",sentence);
+        System.out.println("Common Letters: "+joined);
     } 
 }
