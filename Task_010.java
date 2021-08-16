@@ -1,11 +1,10 @@
 import java.util.HashSet;
 import java.util.Set;
-
 public class Task_010 {
     public static void main(String args[]) {
 
-       String string1 = "house";
-       String string2 = "computers";
+       String string1 = "eckard";
+       String string2 = "berry";
 
        Set<String> sentence = new HashSet<String>();
        for(int i=0;i<string1.length();i++){
@@ -20,3 +19,4 @@ public class Task_010 {
         System.out.println("Common Letters: "+joined);
     } 
 }
+

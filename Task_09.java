@@ -1,7 +1,7 @@
 public class Task_09 {
     public static void main(String[] args) {
         System.out.print("Vowels: ");
-        System.out.print(vowels("The quick brown fox called Ardo"));
+        System.out.print(vowels("Ekard Berry"));
         
     }
     public static String vowels(String string){
